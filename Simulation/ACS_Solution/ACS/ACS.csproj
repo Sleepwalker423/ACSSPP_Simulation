@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+	<ItemGroup>
+		<InternalsVisibleTo Include="TestUnits" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <PackageReference Include="IronXL.Excel" Version="2024.6.1" />
+	</ItemGroup>
+
+</Project>
